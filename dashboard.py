@@ -2,10 +2,11 @@ from etl import get_data, get_data_query
 import pandas as pd
 import plotly.express as px
 import dashboard
-from dashboard import dcc, html
-from dashboard.dependencies import Output, Input
+from dash import dcc, html, dash
+from dash.dependencies import Output, Input
 import plotly.graph_objects as go
 import base64
+import gunicorn
 
 sales = get_data('sales_by_category_location_v')
 supplier = get_data('supplier_product_count_v')
@@ -199,6 +200,8 @@ block_9 = html.Div([
 ])
 
 app = dash.Dash(__name__)
+server = app.server
+
 app.layout = html.Div(
     children=[
         block_1,
@@ -213,7 +216,7 @@ app.layout = html.Div(
     ]
 )
 
-server = app.server
+
 
 
 @app.callback(
