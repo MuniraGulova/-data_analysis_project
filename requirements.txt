@@ -1,0 +1,6 @@
+DuckDB
+Pandas
+Plotly
+Dash
+Gunicorn
+base64
