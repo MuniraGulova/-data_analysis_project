@@ -213,6 +213,8 @@ app.layout = html.Div(
     ]
 )
 
+server = app.server
+
 
 @app.callback(
     Output(component_id='histogram_fig_1', component_property='figure'),
