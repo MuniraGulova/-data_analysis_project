@@ -1,5 +1,3 @@
-Here's the updated version of the README.md file with additional content and corrected grammatical errors:
-
 # Name of Project: E-commerce
 
 ## Author: Munira Gulova
