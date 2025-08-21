@@ -27,7 +27,3 @@ The analysis will focus on the following areas:
 3. Sales Trends: Identifying seasonal patterns, sales growth, and other trends in the e-commerce business.
 4. Marketing Effectiveness: Evaluating the impact of different marketing strategies and channels on customer acquisition and retention.
 
-### Contributions
-
-Contributions to this project are welcome. If you have any suggestions, ideas, or would like to collaborate, please feel free to reach out to the author or submit a pull request.
-
